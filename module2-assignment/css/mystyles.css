@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+h1 {
+	margin-bottom: 15px;
+	font-size: 1.75em;
+	text-align: center;
+}
+section {
+	border: 3px solid black; 
+	background-color: lightgray;
+}
+
+h2{
+	text-align: center;
+	font-size: 1.75em;
+}
+
+h3 {
+	font-size: 1.25em;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: right;
+	border: 1px solid black;
+	background-color: red;
+
+}
+p {
+	width: 90%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;	
+	color: black;
+	clear: right;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 992px) {
+	.col-lg-4 {
+		padding: 30px;
+		width: 33.33%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		padding: 10px;
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		padding: 10px;
+		width: 100%;
+		float: left;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-12{
+		margin-bottom: 30px;
+		width: 100%;
+	}	
+}
+#hd31{
+	background-color: lightblue;
+}
+#hd32{
+	background-color: lightgoldenrodyellow;
+}
+#hd33{
+	background-color: lightgreen;
+}
+/* Coded By Luis Bahamondes Pasten */
