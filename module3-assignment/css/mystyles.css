@@ -2,15 +2,9 @@
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-#header-nav{
+#header-nav {
 	background-color: lightgrey; 
 }
-
-ul {
-	/* text-align: center; */
-	/* background-color: green; */
-	/* height: auto; */
-}
-li {
-	padding: 0px;
+section {
+	background-color: lightgrey;
 }
