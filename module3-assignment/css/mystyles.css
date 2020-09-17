@@ -1,11 +1,15 @@
+*{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
 #header-nav{
-	/* background-color: black; */
+	background-color: lightgrey; 
 }
 
 ul {
-	text-align: center;
+	/* text-align: center; */
 	/* background-color: green; */
-	height: auto;
+	/* height: auto; */
 }
 li {
 	padding: 0px;
