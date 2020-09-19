@@ -26,3 +26,4 @@
   // xxxx.xxxx = byeSpeaker;
   window.byeSpeaker = byeSpeaker;
 })(window);
+// Made by Luis Bahamondes P.
